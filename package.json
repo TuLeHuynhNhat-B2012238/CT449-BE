@@ -1,0 +1,27 @@
+{
+  "name": "contactbook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuLeHuynhNhat-B2012238/CT449-BE.git"
+  },
+  "author": "Tu Le Huynh Nhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuLeHuynhNhat-B2012238/CT449-BE/issues"
+  },
+  "homepage": "https://github.com/TuLeHuynhNhat-B2012238/CT449-BE#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
