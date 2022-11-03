@@ -9,7 +9,7 @@ const connectionString = process.env.DATABASE.replace(
   process.env.DATABASE_PASSWORD
 );
 
-mongoose.connect(connectionString).then(() => {
+mongoose.connect(connectionString, {}).then(() => {
   console.log('DB connection succesful');
 });
 

@@ -1,11 +1,13 @@
 const express = require('express');
 const ApiError = require('./app/api-error');
 const contactRouter = require('./app/routes/contactRoutes');
+const userRouter = require('./app/routes/userRoutes');
 
 const app = express();
 app.use(express.json());
 
 app.use('/api/contacts', contactRouter);
+app.use('/api/users', userRouter);
 
 app.use((req, res, next) => {
   res.status(404).json({
